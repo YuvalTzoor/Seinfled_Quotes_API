@@ -43,7 +43,7 @@
 
 const express = require("express");
 const app = express();
-const seinfeld = require("./seinfeld").quotes;
+// const seinfeld = require("./seinfeld").quotes;
 const MongoClient = require("mongodb").MongoClient;
 const config = require("./config").CONFIG;
 const port = process.env.PORT || 3000;
@@ -142,4 +142,4 @@ app.listen(port, function () {
 });
 
 // Call the function to save the Seinfeld quotes to the database
-saveFromJSON();
+// saveFromJSON();
