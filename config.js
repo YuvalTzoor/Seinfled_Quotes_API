@@ -1,7 +1,7 @@
 // config.js
 
 const CONFIG = {
-	URL: "mongodb:localhost:27017/quotes",
+	URL: "mongodb://localhost:27017/quotes",
 	// Replace "database-name" with your desired database name
 };
 
